@@ -1,0 +1,4 @@
+# The build context is the repo root, which contains the 36 GB bag.
+# Only send what the Dockerfile needs.
+*
+!requirements.txt

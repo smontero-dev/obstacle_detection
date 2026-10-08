@@ -1,0 +1,14 @@
+# Python dependencies that are not ROS packages. Everyone needs all of them,
+# because everyone runs the whole system.
+#
+#   Native / WSL:  pip install -r requirements.txt
+#   Docker:        docker/run.sh rebuilds the image automatically
+#
+# If your node needs a new library, add it here in the same pull request.
+#
+# PyTorch (YOLO): install the CPU-only build to avoid several GB of CUDA
+# packages, by adding this line above torch/ultralytics:
+#   --extra-index-url https://download.pytorch.org/whl/cpu
+
+# cv_bridge in Humble is built against NumPy 1.x and breaks with NumPy 2
+numpy<2

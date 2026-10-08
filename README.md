@@ -2,6 +2,8 @@
 
 Práctica ROS2: detección de obstáculos a partir de datos sensoriales.
 
+Si eres del equipo, empieza por la [guía del proyecto](docs/ONBOARDING.md): arquitectura, entorno, forma de trabajar y tareas de cada uno.
+
 ## Dónde colocar el bag
 
 El bag no se sube al repositorio. Colocarlo en la carpeta `bags/` en la raíz del repositorio:

@@ -1,0 +1,8 @@
+# Returns the closest obstacle inside a sector in front of the vehicle.
+
+float32 max_distance            # m; 0 = no limit
+float32 half_angle              # rad around +x (front); pi = 360 deg
+string label                    # filter by class; "" = any
+---
+bool found
+Obstacle obstacle
